@@ -76,10 +76,11 @@ for n in[1000,2000,4000]:
     for i in [0, n//2, n-1, n]:
         result, checks=contains_counted(items,i)
 start = time.perf_counter()
-for n in [1000,2000,4000]:
+for n in [1000,2000]:
     items = list(range(n))
     members = set(items)
     for t in[0, n//2, n-1, n]:
         res = t in members
 build_seconds = time.perf_counter() - start
 print("构造集合耗时：", build_seconds)
+#test git test12345
