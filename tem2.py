@@ -51,4 +51,4 @@ print(repr(s.strip()))
 print(repr(s.lstrip()))
 print(repr(s.rstrip()))
 for s in ["123","12.3","abc","abc123"," ",""]:
-    print(f"{s!r:10} isdigit={s.isdigit()!s:<6} isalpha={s.isalpha()!s:<6})
+    print(f"{s!r:10} isdigit={s.isdigit()!s:<6} isalpha={s.isalpha()!s:<6}")
